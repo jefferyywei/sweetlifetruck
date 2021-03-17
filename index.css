@@ -1,5 +1,6 @@
 body{
     margin: 0;
+    background-image:url("images/honeycomb.png");
 }
 
 .navbar {
@@ -43,6 +44,8 @@ body{
 
 .main-image{
     width:100%;
+    vertical-align: bottom;
+    display: block;
 }
 
 /* The dropdown container */
@@ -97,4 +100,38 @@ body{
 /* Show the dropdown menu on hover */
 .dropdown:hover .dropdown-content {
     display:block;
+}
+
+.featured-wrapper{
+    position:relative;
+}
+
+.navimage{
+    height:100%;
+}
+
+.featured{
+    position:relative;
+    background-color:#ddd;
+    height:30vh;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.featured img{
+    height:30vh;
+}
+
+.featured-text{
+    position:relative;
+    font-family: 'Montserrat', sans-serif;
+    font-size:3vh;
+    max-width:40vw;
+}
+
+.featured-1{
+    margin-top:3vh;
+    margin-bottom:1vh;
+    background-color: indianred;
 }
