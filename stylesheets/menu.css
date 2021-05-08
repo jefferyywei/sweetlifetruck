@@ -92,7 +92,8 @@ body{
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #444d56;
+    color:white;
 }
 
 /* Show the dropdown menu on hover */
@@ -130,7 +131,7 @@ body{
 
 /* Change background on mouse-over */
 .navbar-2 a:hover {
-    background: #ddd;
+    background: white;
     color: black;
 }
 

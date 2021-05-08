@@ -1,3 +1,9 @@
+window.onbeforeunload = () => {
+    for(const form of document.getElementsByTagName('form')) {
+        form.reset();
+    }
+}
+
 $(document).ready(function(){
     $.fn.isInViewport = function() {
         var elementTop = $('.navbar').offset().top;

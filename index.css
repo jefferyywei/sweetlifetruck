@@ -203,7 +203,7 @@ text{
 
 /* Change background on mouse-over */
 .navbar-2 a:hover {
-    background: #ddd;
+    background: white;
     color: black;
 }
 
