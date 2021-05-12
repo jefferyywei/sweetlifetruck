@@ -158,13 +158,13 @@ text{
     font-size:5vh;
 }
 
-.home-about {
+#home-about {
     position: relative;
     text-align: center;
     color: white;
 }
 
-.home-about img{
+#home-about img{
     filter: brightness(45%)
 }
 

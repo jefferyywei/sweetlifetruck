@@ -272,7 +272,7 @@ body{
     margin-right: 3%;
 }
 .form{
-    padding: 3vh;
+    padding: 5vh;
     margin-left:2vw;
     margin-top:2vw;
     width:40vw;
@@ -284,6 +284,7 @@ body{
     background-color:white;
     flex:1;
     width:40vw;
+    height:60vh;
     padding: 5vh;
     margin-left:2vw;
     margin-top:2vw;
