@@ -6,6 +6,7 @@
         <title>Gabby's Sweet Treats | Contact</title>
         <link href="../stylesheets/contact.css" rel="stylesheet" type="text/css" />
         <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="https://code.iconify.design/1/1.0.7/iconify.min.js"></script>
         <link rel="preconnect" href="https://fonts.gstatic.com">
         <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@700&display=swap" rel="stylesheet">
         <link href="https://fonts.googleapis.com/css2?family=Titillium+Web:wght@200;400&display=swap" rel="stylesheet">
@@ -18,12 +19,12 @@
                 <div class="link-container">
                     <a href="../index.html">Home</a>
                     <a href="../pages/menu.html">Menu</a>
-                    <a href="#catering">Catering</a>
+                    <a href="../pages/catering.html">Catering</a>
                     <img class="logo" src="../images/logo.png">
                     <a href="#gallery">Gallery</a>
                     <div class="dropdown">
                         <button class="dropbtn">About
-                            <i class="fa fa-caret-down"></i>
+                            &#9660;
                         </button>
                         <div class="dropdown-content">
                             <a href="../index.html#home-about">Who We Are</a>
@@ -45,20 +46,28 @@
             <img class="logo-2" src="../images/logo.png">
             <a href="../index.html">Home</a>
             <a href="../pages/menu.html">Menu</a>
-            <a href="#catering">Catering</a>
+            <a href="../pages/catering.html">Catering</a>
             <a href="#gallery">Gallery</a>
             <a href="../index.html#home-about">Who We Are</a>
             <a href="#schedule">Schedule</a>
             <a class="active-2" href="#contact">Contact</a>
         </div>
         <div class="contact-flex">
-            <div class="form">
+            <div id="form">
                 <form id="fs-frm" name="simple-contact-form" accept-charset="utf-8" action="https://formspree.io/f/xbjqgbag" method="post">
                     <fieldset id="fs-frm-inputs">
                         <label for="full-name">Full Name</label>
                         <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
                         <label for="email-address">Email Address</label>
                         <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        <label for="subject">Subject</label>
+                        <select name="subject" id="subject" required="">
+                            <option value="Select" selected="" disabled="">Select</option>
+                            <option value="Catering">Catering</option>
+                            <option value="Question">Question</option>
+                            <option value="Concern">Concern</option>
+                            <option value="Other">Other</option>
+                        </select>
                         <label for="message">Message</label>
                         <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
@@ -70,6 +79,23 @@
             <div class="social-container">
                 <text class="social-title">Stay Updated</text></br></br></br></br></br>
                 <text class="body">Call or text ___________  to learn more about how to book The SweetLifeTruck.</text>
+                <div class="row">
+                    <div class="column">
+                        <div class="image-text">
+                            <a href="#" class="fa fa-instagram"></a>
+                        </div>
+                        <div class="image-text">
+                            <a href="#" class="fa fa-twitter"></a>
+                        </div>
+                    </div>
+                    <div class="column margin">
+                        <div class="image-text">
+                            <a href="#" class="fa fa-facebook"></a>
+                        </div>
+                        <div class="image-text">
+                            <span class="iconify" data-icon="simple-icons:tiktok" data-inline="false"></span>                        </div>
+                    </div>
+                </div>
             </div>
         </div>
     </body>
