@@ -3,7 +3,8 @@
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Gabby's Sweet Treats | Menu</title>
+    <title>Gabby's Sweet Treats | Catering</title>
+    <link rel="icon" type="image/png" href="../images/logo.png"/>
     <link href="../stylesheets/catering.css" rel="stylesheet" type="text/css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
     <link rel="preconnect" href="https://fonts.gstatic.com">
@@ -18,16 +19,18 @@
         <div class="link-container">
           <a href="../index.html">Home</a>
           <a href="../pages/menu.html">Menu</a>
-          <a class="active" href="#catering">Catering</a>
+          <a class="active" href="">Catering</a>
           <img class="logo" src="../images/logo.png">
           <a href="#gallery">Gallery</a>
           <div class="dropdown">
             <button class="dropbtn">About
-              &#9660;
+              <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
+                <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
+              </svg>
             </button>
             <div class="dropdown-content">
               <a href="../index.html#home-about">Who We Are</a>
-              <a href="#schedule">Schedule</a>
+              <a href="../pages/schedule.html">Schedule</a>
             </div>
           </div>
           <a href="../pages/contact.html">Contact</a>
@@ -51,36 +54,37 @@
 <!--      <a href="#schedule">Schedule</a>-->
 <!--      <a href="../pages/contact.html">Contact</a>-->
 <!--    </div>-->
-
-    <div class="services-flex">
-      <div class="services">
-        <text class="services-title">Our Catering Services</text></br></br>
-        <div class="flex-2">
-          <div class="list-1">
-            <ul class="first">
-              <li>Parties</li>
-              <li>Events</li>
-              <li>Birthday Parties</li>
-              <li>Festivals</li>
-              <li>Fundraisers</li>
-            </ul>
-          </div>
-          <div class="list-2">
-            <ul class="first">
-              <li>School Fairs</li>
-              <li>Block Parties</li>
-              <li>Camps</li>
-              <li>Trade Shows</li>
-              <li>Holiday Parties</li>
-            </ul>
+    <div class="parent">
+      <div class="services-flex">
+        <div class="services">
+          <text class="services-title">Our Catering Services</text></br></br>
+          <div class="flex-2">
+            <div class="list-1">
+              <ul class="first">
+                <li>Parties</li>
+                <li>Events</li>
+                <li>Birthday Parties</li>
+                <li>Festivals</li>
+                <li>Fundraisers</li>
+              </ul>
+            </div>
+            <div class="list-2">
+              <ul class="first">
+                <li>School Fairs</li>
+                <li>Block Parties</li>
+                <li>Camps</li>
+                <li>Trade Shows</li>
+                <li>Holiday Parties</li>
+              </ul>
+            </div>
           </div>
         </div>
-      </div>
 
-      <div class="services">
-        <text class="services-title">How To Reserve Us</text></br></br>
-        <text class="body">Please fill out the form by clicking the button below. It will take you to the Contact Page where the form is on the left. For subject, select Catering.</text></br></br>
-        <a href="../pages/contact.html#form"><button class="button"> Catering Form </button></a>
+        <div class="services">
+          <text class="services-title">How To Reserve Us</text></br></br>
+          <text class="body">Please fill out the form by clicking the button below. It will take you to the Contact Page where the form is on the left. For subject, select Catering.</text></br></br>
+          <a href="../pages/contact.html#form"><button class="button"> Catering Form </button></a>
+        </div>
       </div>
     </div>
   </body>

@@ -107,88 +107,22 @@ body{
     height:100%;
 }
 
-/*.navbar-2 {*/
-/*    overflow: hidden;*/
-/*    background-color: #333;*/
-/*    position: fixed; !* Set the navbar to fixed position *!*/
-/*    top: 0; !* Position the navbar at the top of the page *!*/
-/*    width: 100%; !* Full width *!*/
-/*    z-index: 4;*/
-/*    height:10.5vh;*/
-/*    display: flex;*/
-/*    justify-content: space-evenly;*/
-/*    align-items: center;*/
-/*}*/
-
-/*!* Links inside the navbar *!*/
-/*.navbar-2 a {*/
-/*    font-family: 'Montserrat', sans-serif;*/
-/*    color: white;*/
-/*    display: block;*/
-/*    text-align: center;*/
-/*    padding: 14px 16px;*/
-/*    text-decoration: none;*/
-/*    font-size: 2.2vh;*/
-/*}*/
-
-/*!* Change background on mouse-over *!*/
-/*.navbar-2 a:hover {*/
-/*    background: white;*/
-/*    color: black;*/
-/*}*/
-
-/*.logo-2{*/
-/*    height:9vh;*/
-/*}*/
-
-/*.active-2 {*/
-/*    background-color: indianred;*/
-/*    color: white;*/
-/*}*/
-
-/*.hide{*/
-/*    display:none;*/
-/*}*/
-
-.row {
-    display: flex;
-    /*flex-wrap: wrap;*/
-    padding: 0 2vw;
-    justify-content: center;
-    margin-top:3vh;
+.menu-overlay {
+    height:50vh;
+    position: relative;
+    text-align: center;
 }
 
-/* Create four equal columns that sits next to each other */
-.column {
-    flex: 30%;
-    max-width: 30%;
-    padding: 0 4px;
-}
-
-.margin{
-    margin-left:3vw;
-}
-
-.column img {
-    margin-top: 1vh;
-    vertical-align: middle;
-    width: 100%;
-}
-
-/* Responsive layout - makes a two column-layout instead of four columns */
-@media screen and (max-width: 800px) {
-    .column {
-        flex: 50%;
-        max-width: 50%;
-    }
-}
-
-/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
-@media screen and (max-width: 600px) {
-    .column {
-        flex: 100%;
-        max-width: 100%;
-    }
+.menu-text {
+    color:white;
+    position: absolute;
+    top: 70%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    width:60%;
+    font-family: 'Titillium Web', sans-serif;
+    font-size:5vh;
 }
 
 text{
@@ -234,7 +168,7 @@ text{
     font-family: 'Montserrat', sans-serif;
     font-size: 4vh;
     text-align:center;
-
+    margin-bottom: 2vh;
 }
 
 .services-flex{
@@ -242,41 +176,13 @@ text{
     justify-content: space-evenly;
 }
 
-ul{
-    font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vh
-}
-
 .body{
     font-family: 'Montserrat', sans-serif;
-    font-size: 2.5vh
+    font-size: 2.5vh;
+    padding-left: 4vw ;
+    padding-right:4vw;
 }
 
-.flex-2{
-    display: flex;
-    justify-content: space-around;
-}
-
-.button {
-    background-color: indianred;
-    font-family: 'Montserrat', sans-serif;
-    border: 0.5vh solid indianred;
-    color: white;
-    padding: 2.5vh 4vh;
-    margin-left:36%;
-    text-align: center;
-    text-decoration: none;
-    display: inline-block;
-    font-size: 2vh;
-    transition-duration: 0.4s;
-    cursor: pointer;
-    border-radius:1vh;
-}
-
-.button:hover {
-    background-color: white; /* Green */
-    color: black;
-}
 
 .parent{
     display: flex;
@@ -284,3 +190,75 @@ ul{
     justify-content: center;
     height:50vh;
 }
+
+.row {
+    display: flex;
+    margin-bottom:-3vh;
+    margin-top:-3vh;
+    /*flex-wrap: wrap;*/
+    padding: 0 2vw;
+    justify-content: center;
+}
+
+/* Create four equal columns that sits next to each other */
+.column {
+    padding: 0 4px;
+}
+
+.margin{
+}
+
+.image-text {
+    margin:2vh;
+    vertical-align: middle;
+    width: 100%;
+}
+
+/* Style all font awesome icons */
+.fa{
+    padding: 4vh;
+    font-size: 3.5vh !important;
+    width: 1.7vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+}
+
+.iconify{
+    padding: 4vh;
+    font-size: 3.5vh !important;
+    width: 1.7vw;
+    text-align: center;
+    text-decoration: none;
+    border-radius: 50%;
+    background: black;
+    color: white;
+}
+
+.fa:hover {
+    opacity: 0.7;
+}
+
+.iconify:hover {
+    opacity: 0.7;
+}
+
+.fa-instagram {
+    background: #F56040;
+    color: white;
+}
+
+.fa-facebook {
+    background: #3B5998;
+    color: white;
+}
+
+.fa-twitter {
+    background: #55ACEE;
+    color: white;
+}
+
+
+
+
+
