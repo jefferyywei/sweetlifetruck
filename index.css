@@ -226,6 +226,13 @@ text{
     display:none;
 }
 
+.extra-link{
+    color:skyblue;
+}
+
+.extra-link:hover{
+    color:darkslateblue;
+}
 
 
 
