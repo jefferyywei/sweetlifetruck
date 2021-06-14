@@ -307,6 +307,7 @@ body{
 
 .row {
     display: flex;
+    margin-right:2.7vw;
     /*flex-wrap: wrap;*/
     padding: 0 2vw;
     justify-content: center;

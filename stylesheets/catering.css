@@ -263,8 +263,6 @@ ul{
     border: 0.5vh solid indianred;
     color: white;
     padding: 2.5vh 4vh;
-    margin-left:36%;
-    text-align: center;
     text-decoration: none;
     display: inline-block;
     font-size: 2vh;
@@ -278,9 +276,13 @@ ul{
     color: black;
 }
 
-.parent{
+.parent {
     display: flex;
     flex-direction: column;
     justify-content: center;
-    height:50vh;
+    height: 50vh;
+}
+
+.center-button{
+    text-align: center;
 }
