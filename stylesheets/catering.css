@@ -36,7 +36,7 @@ body{
 }
 
 .navbar a.active {
-    background-color: indianred;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -258,9 +258,9 @@ ul{
 }
 
 .button {
-    background-color: indianred;
+    background-color: lightskyblue;
     font-family: 'Montserrat', sans-serif;
-    border: 0.5vh solid indianred;
+    border: 0.5vh solid lightskyblue;
     color: white;
     padding: 2.5vh 4vh;
     text-decoration: none;

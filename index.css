@@ -39,7 +39,7 @@ body{
 }
 
 .navbar a.active {
-    background-color: indianred;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -121,7 +121,7 @@ body{
 .h-menu-text{
     flex:1;
     margin-left:1vw;
-    background-color:indianred;
+    background-color:lightskyblue;
     padding:5.5vh;
     text-align:center;
 }
@@ -141,7 +141,7 @@ body{
 .h-catering-text{
     flex:1;
     margin-right:1vw;
-    background-color:#F86989;
+    background-color:lightskyblue;
     padding:5.5vh;
     text-align:center;
 
@@ -218,7 +218,7 @@ text{
 }
 
 .active-2 {
-    background-color: indianred;
+    background-color: lightskyblue;
     color: white;
 }
 

@@ -34,7 +34,7 @@ body{
 }
 
 .navbar a.active {
-    background-color: indianred;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -155,7 +155,7 @@ body{
 }
 
 .active-2 {
-    background-color: indianred;
+    background-color: lightskyblue;
     color: white;
 }
 
@@ -375,5 +375,5 @@ body{
 }
 
 .phone{
-    color:indianred;
+    color:lightskyblue;
 }
