@@ -45,6 +45,7 @@ body{
 
 .main-image{
     width:100%;
+    object-fit: cover;
     vertical-align: bottom;
     display: block;
 }
@@ -109,17 +110,17 @@ body{
 
 .home-menu{
     display:flex;
-    margin-top:3vh;
+    margin-top:1vw;
     margin-left:1vw;
     margin-right:1vw;
 }
 
 .h-menu-img{
     width:57vw;
+    object-fit: cover;
 }
 
 .h-menu-text{
-    flex:1;
     margin-left:1vw;
     background-color:lightskyblue;
     padding:5.5vh;
@@ -128,18 +129,18 @@ body{
 
 .home-catering{
     display:flex;
-    margin-top:3vh;
+    margin-top:1vw;
     margin-left:1vw;
     margin-right:1vw;
-    margin-bottom:3vh;
+    margin-bottom:1vw;
 }
 
 .h-catering-img{
     width:57vw;
+    object-fit: cover;
 }
 
 .h-catering-text{
-    flex:1;
     margin-right:1vw;
     background-color:lightskyblue;
     padding:5.5vh;
@@ -166,7 +167,8 @@ text{
 }
 
 #home-about img{
-    filter: brightness(40%)
+    filter: brightness(40%);
+    object-fit: cover;
 }
 
 .h-about-text {
@@ -227,7 +229,8 @@ text{
 }
 
 .extra-link{
-    color:skyblue;
+    color:mediumslateblue;
+
 }
 
 .extra-link:hover{
