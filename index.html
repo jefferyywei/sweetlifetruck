@@ -25,17 +25,19 @@
                         <a href="pages/catering.html">Catering</a>
                         <img class="logo desktop" src="images/logo.png">
                         <a href="pages/gallery.html">Gallery</a>
-                        <div class="dropdown">
+                        <div class="dropdown desktop-3">
                             <button class="dropbtn">About
                                 <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-caret-down-fill" viewBox="0 0 16 16">
                                     <path d="M7.247 11.14 2.451 5.658C1.885 5.013 2.345 4 3.204 4h9.592a1 1 0 0 1 .753 1.659l-4.796 5.48a1 1 0 0 1-1.506 0z"/>
                                 </svg>
                             </button>
                             <div class="dropdown-content">
-                                <a href="#who">Who We Are</a>
+                                <a onclick="scroll_about()">Who We Are</a>
                                 <a href="pages/schedule.html">Schedule</a>
                             </div>
                         </div>
+                        <a class="mobile-3 on-click" href="index.html#home-about">Who We Are</a>
+                        <a class="mobile-3" href="pages/schedule.html">Schedule</a>
                         <a href="pages/contact.html">Contact</a>
                     </div>
                 </div>
@@ -43,7 +45,6 @@
             <img class="main-image" src="images/foodtruck-2.jpg">
 
             <div class="overlay-wrapper" id="overlay-wrapper">
-                <div class="embed-container"></div>
                 <div class="overlay-bg"></div>
             </div>
         </div>
@@ -60,8 +61,7 @@
         </div>
 
         <div class="home-menu">
-            <img class="h-menu-img" src="images/home_menu.jpg">
-
+            <img class="h-menu-img desktop-2" src="images/home_menu.jpg">
             <div class="h-menu-text">
                 <text>Our Treats</text>
                 </br> </br>
@@ -70,6 +70,7 @@
                 Want something Sweet and Light? Grab a slice of Cheesecake or Apple Pie.
                 Want a Sweet Drink? Grab a Snapple or a Starbucks Frappuccino Coffee Drink.</p>
             </div>
+            <img class="h-menu-img mobile-2" src="images/home_menu.jpg">
         </div>
 
         <div class="home-catering">

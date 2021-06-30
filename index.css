@@ -26,7 +26,7 @@ body{
 .link-container a {
     font-family: 'Montserrat', sans-serif;
     color: white;
-    display: block;
+    cursor:pointer;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -35,12 +35,15 @@ body{
 
 .icon{
     display:none;
-    position:fixed;
+    position:absolute;
+    height:5vh;
+    width:9vw;
     left:2vh;
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
     font-size:150%;
+    text-align: center;
 }
 
 .link-container a:hover {
@@ -252,19 +255,28 @@ text{
     position: fixed;
     top: 0px;
     left: 0px;
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
+    z-index:2;
 }
 
 .overlay-bg {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #222;
     opacity: 0.95;
+    z-index:2;
 }
 
 .mobile{
     display:none;
+}
+.mobile-2{
+    display: none;
+}
+
+.mobile-3{
+    display: none;
 }
 
 /* When the screen is less than 600 pixels wide, hide all links, except for the first one ("Home"). Show the link that contains should open and close the topnav (.icon) */
@@ -284,14 +296,20 @@ text{
         z-index:3;
     }
     .desktop{display:none;}
+    .desktop-2{display: none;}
+    .desktop-3{display: none;}
+    .mobile-2{display: block;}
+    .mobile-3{display: block;}
     .navbar{margin-top:2vh; overflow: visible;}
     .show{display:block;}
-    .h-menu-img{display:none;}
-    .h-catering-img{display:none;}
-    text{font-size:18px;}
-    p{font-size:12px;}
-    .h-menu-text{padding:2.5vh;margin-left:0;}
-    .h-catering-text{padding:2.5vh;margin-right:0;}
+    .h-menu-img{width:100vw; height:45vw; margin-top:1vw; margin-right:1vw;}
+    .home-menu{display:block; overflow: hidden}
+    .h-catering-img{width:100vw; height:45vw;}
+    .home-catering{display:block; margin-bottom:0;overflow: hidden;}
+    text{font-size:4vw;}
+    p{font-size:3vw;}
+    .h-menu-text{padding:2.5vh;margin-left:0; height:48vw;}
+    .h-catering-text{padding:2.5vh;margin-right:0; height:48vw; margin-bottom:1vw;}
     .h-about-text{width:90%;}
     .h-about-text p {font-size:1.5vw;}
 }
@@ -300,10 +318,16 @@ text{
 @media screen and (max-width: 600px) {
     .fixed{
         position: fixed;
-        margin-top:20vh;
+        margin-top:17vh;
         width:100vw;
         z-index: 3;
     }
+
+    .fixed-2{
+        position:fixed;
+        background-color:black;
+    }
+
     .link-container.responsive {
         position: relative;
         display:block;
@@ -319,14 +343,6 @@ text{
         z-index:3;
         margin-right:20%;
         margin-left:20%;
-    }
-    .link-container.responsive .dropdown {float: none; z-index:3;}
-    .link-container.responsive .dropdown-content {position: relative; z-index:3;}
-    .link-container.responsive .dropdown .dropbtn {
-        display: block;
-        width: 100%;
-        text-align: left;
-        z-index:3;
     }
 }
 

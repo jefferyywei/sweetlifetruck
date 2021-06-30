@@ -15,6 +15,11 @@ function myFunction() {
     }
 }
 
+function scroll_about(){
+    var element = document.getElementById("home-about");
+    element.scrollIntoView({block: 'center', behavior:'smooth'});
+}
+
 $(document).ready(function(){
     $.fn.isInViewport = function() {
         var elementTop = $('.navbar').offset().top;
@@ -29,8 +34,15 @@ $(document).ready(function(){
     $(window).on('resize scroll', function() {
         if ($('.navbar').isInViewport()) {
             $( "div.navbar-2" ).addClass( "hide" )
+            $( ".icon" ).removeClass( "fixed-2" )
         } else {
             $( "div" ).removeClass( "hide" )
+            $( ".icon" ).addClass( "fixed-2" )
         }
+    });
+
+    $("a.on-click").click(function(){
+        $(".link-container").removeClass("responsive");
+        $(".overlay-wrapper").removeClass("show");
     });
 });
