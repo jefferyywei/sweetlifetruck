@@ -378,7 +378,7 @@ text{
     font-family: 'Montserrat', sans-serif;
     font-size: 4vh;
     text-align:center;
-
+    margin-top:1vw;
 }
 
 .services-flex{
@@ -541,3 +541,15 @@ ul{
     }
 
 }
+
+@media screen and (max-width: 500px) and (min-width: 0px) {
+    ul{
+        font-size: 2vh;
+    }
+
+    .services-title{
+        margin-top:3vw;
+    }
+}
+
+

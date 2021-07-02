@@ -312,6 +312,7 @@ text{
     font-size: 4vh;
     text-align:center;
     margin-bottom: 2vh;
+    margin-top:1vw;
 }
 
 .services-flex{
@@ -352,23 +353,26 @@ text{
 }
 
 .image-text {
+    vertical-align: middle;
     margin:2vh;
 }
 
 /* Style all font awesome icons */
 .fa:not(.special){
     padding: 4vh;
-    font-size: 3.5vh !important;
+    font-size: 1.7vw;
     width: 1.7vw;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
+    height:1.7vw;
 }
 
 .iconify{
     padding: 4vh;
-    font-size: 3.5vh !important;
+    font-size: 1.7vw;
     width: 1.7vw;
+    height:1.7vw;
     text-align: center;
     text-decoration: none;
     border-radius: 50%;
@@ -501,6 +505,31 @@ text{
         margin-left: 4.5vw;
         width: 83vw;
         padding: 4vw;
+    }
+
+    .services-title{
+        margin-bottom:0.5vw;
+        margin-top:4vw;
+    }
+}
+
+@media screen and (max-width: 850px) {
+    .fa:not(.special) {
+        width:auto;
+        height:auto;
+        font-size:4.5vw;
+    }
+
+    .fa-facebook{
+        width:4vw !important;
+        height:auto !important;
+        font-size:4.5vw !important;
+    }
+
+    .iconify {
+        width:auto;
+        height:auto;
+        font-size:4.5vw;
     }
 }
 
