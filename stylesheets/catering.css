@@ -152,7 +152,7 @@ body{
     font-family: 'Montserrat', sans-serif;
     color: white;
     text-decoration: none;
-    font-size:3.5vh;
+    font-size:3.7vh;
     text-align: center;
 }
 
@@ -431,7 +431,6 @@ ul{
     text-align: center;
 }
 
-
 .overlay-wrapper {
     display:none;
     position: fixed;
@@ -525,6 +524,7 @@ ul{
 
     .services-flex {
         display: block;
+        padding-bottom:4.5vw;
     }
 
     .services {
@@ -533,4 +533,11 @@ ul{
         width: 83vw;
         padding: 4vw;
     }
+}
+
+@media screen and (max-width: 900px) and (min-width: 600px) {
+    ul{
+        font-size: 3vh;
+    }
+
 }
