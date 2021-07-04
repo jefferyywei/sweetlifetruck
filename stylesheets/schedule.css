@@ -533,6 +533,12 @@ text{
     }
 }
 
+@media screen and (max-width:850px) and (min-width: 530px){
+    .services-title{
+        margin-top: 0;
+    }
+}
+
 
 
 
