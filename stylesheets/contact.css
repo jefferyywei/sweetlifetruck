@@ -709,8 +709,14 @@ body{
     .contact-flex{display: block; overflow: hidden;}
 
     #form, .social-container{
-        width:87.5vw;
+        width:auto;
         margin-right:2vw;
+    }
+
+    #form{padding:3vh;}
+
+    #fs-frm input, #fs-frm select, #fs-frm textarea, #fs-frm fieldset, #fs-frm optgroup, #fs-frm label, #fs-frm #card-element:disabled{
+        width:65vw;
     }
 
 }

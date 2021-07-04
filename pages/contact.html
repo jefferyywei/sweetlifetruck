@@ -17,7 +17,7 @@
     <body>
         <div class="navimage">
             <div class="navbar">
-                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars" style=" vertical-align: middle;" aria-hidden="true"></i></a>
+                <a href="javascript:void(0);" class="icon" onclick="myFunction()"><i class="fa fa-bars special" style=" vertical-align: middle;" aria-hidden="true"></i></a>
                 <img class="logo mobile" src="../images/logo.png">
                 <div class="fixed">
                     <div class="link-container" id="link-container">
@@ -100,7 +100,7 @@
                         <label for="full-name">Full Name</label>
                         <input type="text" name="name" id="full-name" placeholder="First and Last" required="">
                         <label for="email-address">Email Address</label>
-                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.tld" required="">
+                        <input type="email" name="_replyto" id="email-address" placeholder="email@domain.com" required="">
                         <label for="subject">Subject</label>
                         <select name="subject" id="subject" required="">
                             <option value="Select" selected="" disabled="">Select</option>
@@ -110,7 +110,7 @@
                             <option value="Other">Other</option>
                         </select>
                         <label for="message">Message</label>
-                        <textarea rows="5" name="message" id="message" placeholder="" required=""></textarea>
+                        <textarea rows="5" name="message" id="message" placeholder="Enter your message" required=""></textarea>
                         <input type="hidden" name="_subject" id="email-subject" value="Contact Form Submission">
                     </fieldset>
                     <input class="submit" type="submit" value="Submit">
