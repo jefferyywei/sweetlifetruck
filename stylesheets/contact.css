@@ -129,7 +129,7 @@ body{
     align-items: center;
 }
 
-.link-container a {
+.link-container a:not(.logo-link) {
     font-family: 'Montserrat', sans-serif;
     color: white;
     cursor:pointer;
@@ -152,7 +152,7 @@ body{
     text-align: center;
 }
 
-.link-container a:hover {
+.link-container a:hover:not(.logo-link) {
     background-color: white;
     color: black;
 }
@@ -182,13 +182,13 @@ body{
     border: none;
     outline: none;
     color: white;
-    padding: 14px 16px;
+    padding: 1.5vw 1.5vw;
     background-color: inherit;
     font-family: 'Montserrat', sans-serif;
     margin: 0; /* Important for vertical align on mobile phones */
 }
 
-.link-container a:hover, .dropdown:hover .dropbtn {
+.link-container a:hover:not(.logo-link), .dropdown:hover .dropbtn {
     background-color: white;
     color:black;
 }
@@ -198,25 +198,25 @@ body{
     display: none;
     position:absolute;
     background-color: #f9f9f9;
-    min-width: 160px;
+    width:13vw;
     box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
     z-index: 1;
 }
 
 /* Links inside the dropdown */
 .dropdown-content a {
-    font-size: 1.6vw;
-    float: none;
-    color: black;
-    padding: 1vw 1.1vw;
-    text-decoration: none;
-    display: block;
-    text-align: left;
+    font-size: 1.6vw!important;
+    float: none!important;
+    color: black!important;
+    padding: 1vw 1.1vw!important;
+    text-decoration: none!important;
+    display: block!important;
+    text-align: left!important;
 }
 
 /* Add a grey background color to dropdown links on hover */
 .dropdown-content a:hover {
-    background-color: #ddd;
+    background-color: #ddd!important;
 }
 
 /* Show the dropdown menu on hover */
