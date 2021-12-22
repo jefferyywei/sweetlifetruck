@@ -185,6 +185,7 @@ body{
     vertical-align: bottom;
     display: block;
     opacity: 0.7;
+    height:100vh;
 }
 
 /* The dropdown container */

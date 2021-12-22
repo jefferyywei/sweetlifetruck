@@ -169,6 +169,7 @@ body{
     vertical-align: bottom;
     display: block;
     opacity: 0.6;
+    height:100vh
 }
 
 /* The dropdown container */

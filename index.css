@@ -132,7 +132,8 @@ body{
 }
 
 .h-menu-img{
-    width:57vw;
+    /*width:57vw;*/
+    width:230vw;
     height:38vw;
     object-fit: cover;
 }
@@ -154,7 +155,8 @@ body{
 }
 
 .h-catering-img{
-    width:57vw;
+    /*width:57vw;*/
+    width:460vw;
     height:38vw;
     object-fit: cover;
 }
@@ -189,6 +191,7 @@ text{
 #home-about img{
     filter: brightness(40%);
     object-fit: cover;
+    height:70vh;
 }
 
 .h-about-text {
