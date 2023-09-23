@@ -36,18 +36,25 @@ $(document).ready(function(){
         $("div.overlay-wrapper").show();
     });
 
-    // $("img.event-2-img").on("click", function (event) {
-    //     $("div.embed-container").append("<script src=\"https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js\" async></script>\n" +
-    //         "<div class=\"pa-gallery-player-widget\" style= display:none;\"\n" +
-    //         "  data-link=\"https://photos.app.goo.gl/GXpkoteWWMSxuwmMA\"\n" +
-    //         "  data-title=\"Cookies\"\n" +
-    //         "  data-description=\"3 new photos added to shared album\">\n" +
-    //         "  <object data=\"https://lh3.googleusercontent.com/34P5fbMuD6ii9Hl1id-SjnMpQxFWWisGKxDDvP0d0-gQ9B82PCLw1_tn88MRsYVKUOIhDEMBOnm8jV6Rug6ZADRwVaQdw-pO3wZ4V3CQ6H9duePucKOwnl7xXyRMbfgGKkeFai7y=w1920-h1080\"></object>\n" +
-    //         "  <object data=\"https://lh3.googleusercontent.com/nTBkXmItYg6DqbuYp57PMRhMGB5-VqAYtEcyKCCJC3kWwz9t2AHeXXu7iSzQM1Kcd-vDmeu8NwaEBcP5j85bUaqqcHMNWel6c4uGKgDGqcqGai6uNZEPaTlMnLBFSkIHiTEDlY_T=w1920-h1080\"></object>\n" +
-    //         "  <object data=\"https://lh3.googleusercontent.com/zg5n9xnKoQyshD5mTic6NGJyhOK8SekKP--GTbJJTA3uNc15W4GWQIrcTB8_YyerrlZrWOTW6f4rBWp_BbNdqK7JB0yGgPGF4lSOqqFO7BF_o5_BSLJepb9AkB_-Ri2NyqTQPHxe=w1920-h1080\"></object>\n" +
-    //         "</div>\n");
-    //     $("div.overlay-wrapper").show();
-    // });
+    $("img.event-2-img").on("click", function (event) {
+        $("div.embed-container").append("<script src=\"https://cdn.jsdelivr.net/npm/publicalbum@latest/embed-ui.min.js\" async></script>\n" +
+            "<div class=\"pa-gallery-player-widget\" style= display:none;\"\n" +
+            "  data-link=\"https://photos.app.goo.gl/9Jq2XzWAPkojBq2d8\"\n" +
+            "  data-title=\"GabbysSweetTreats\"\n" +
+            "  data-description=\"9 new photos added to shared album\">\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc8njn6D0tRR9hPAfefdiXnd1GSkf741PdxcYFr0YnkV4bhpV4TK0lIpKIrKsHNr_tzTI6HkmPS_mXr32HwGrMtW2n9vXOsgcSR4sHedOJOG3BNtKfM=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc8Iid50ocxvReWWyMNbgs77-Paqf_Oe9OLbkPCfZhR3gcAqtxHRnPPA_8kTLrg7IyR5imA2_EVGQ_EiUuZiWQpdc21HAe63kQkYNSLt4ZDisvAdeUE=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc_7qxDupiNUMw9FPJN650xHh472In8IaynAqwL6Yv4Om4Xl11PHim1l0vXxwYSlQYS3vbnMC4a-lyUjb33KoTbtKuH5A_7WYu9c5Q4W8tBSlt7Tse8=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc-00w0Ue6pQXlmar6bLgH3wKqadOC_rVE6v8IDApxPTaqs-oC-b_aaNdFJcil8BLxeqPvllWrg2j9Q0iUbFH5eq0k6j7mM-r0iJH46axui3uyFOBQg=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc84tXp4U4GojYnmtQBQvyRpL1z2DAhk7BGllBGHVMlzVDU2xMFpCW50uDEbI5bmf3xAzi_riq32Mpo6uAzymRaMxX_fY6Wn6mlmO3zPI2ZRZjyL1XM=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc_H6ry28rpgJfrmcMdOzLt4BE4x3n7zhL5DNS5u9TAG0RCSp4j8-w2NhVGVNzqg87NyMb5egj1G1AkFyKEkT_TxXQ_9O7ZQLGKhp-cgdm01oN7ZruU=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc8EaCwtT-YwPOLMcsE4k89RVTQXmFAz5xTv4qmFNV4nc3wMivKuWZ0nVeUmmXbW_0oP_NqKyTFzXyUH0ha26J_UKkMc6jxVQ6Z5h4Twy9hINolJ6h0=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc8gl7BOr0uEcMfLiDvx6o2Jt0xIcGc1jUYDDPy70FCThtDpPvZzLFhaJdML3RUrDSgNcP1B4HFBsJrwhGh0-80nNcPbOl6YkJOJt2xFYyujUJUQ3SQ=w1920-h1080\"></object>\n" +
+            "  <object data=\"https://lh3.googleusercontent.com/pw/AIL4fc8VE4B2CZ-5pCDnmouYNoYflXFtiI-ISfDyEDa_W0_kLCLKmigyy2rdPNLoyNDEfqhRU-PYHkGVSqkw2_DbXHLOGI3J3eegJMbb7NpFtC7pmkmEj0w=w1920-h1080\"></object>\n" +
+            "</div>\n");
+        $("div.overlay-wrapper").show();
+    });
+
     //
     //
     // $("img.event-3-img").on("click", function (event) {
